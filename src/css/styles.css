@@ -7,6 +7,8 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
@@ -15,18 +17,17 @@ body {
 #search-box {
   font: inherit;
   padding: 8px;
-  max-width: 320px;
+  max-width: 300px;
   margin-bottom: 16px;
 }
 
 .country-list {
   padding: 0;
-  display: flex;
+  
 }
 
 .country-list__item {
   list-style: none;
-  flex-direction: column;
 }
 
 .country-list__name {
