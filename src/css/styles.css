@@ -18,3 +18,22 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list {
+  padding: 0;
+  display: flex;
+}
+
+.country-list__item {
+  list-style: none;
+  flex-direction: column;
+}
+
+.country-list__name {
+  margin: 2px 10px;
+}
+
+.country-info__list {
+  list-style: none;
+  padding: 0;
+}
